@@ -182,7 +182,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=SQKOYKSO
+DocumentUniqueId=TSUHPQUI
 
 [Document9]
 DocumentPath=Libraries\Board.PcbLib
@@ -233,7 +233,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=SDSMTDXQ
+DocumentUniqueId=TSUHPQUI
 
 [Configuration1]
 Name=Sources
