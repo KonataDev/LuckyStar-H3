@@ -5,9 +5,12 @@ We called it `LuckyStar-H3`, it able to run Konata.Core on it effortlessly.
 Compared with the Raspberry Pi, it has outstanding scalability and unparalleled computing power,  
 which is very suitable for Cloud and Edge Computing and Calculation-intensive scenes.
 
-## Overview
-<image src="./image/overview-front.png" width="300px">
-<image src="./image/overview-back.png" width="300px">
+<image src="./image/overview-front.png" width="400px">
+<image src="./image/overview-back.png" width="400px">
+
+[![cpu](https://img.shields.io/badge/CPU-QUAD%20ARM%20Cortex%20A7-orange)](#)
+[![moew](https://img.shields.io/badge/LuckyStar-H3-green)](#)
+[![license](https://img.shields.io/badge/LICENSE-MIT-blue)](./blob/main/LICENSE)
 
 ## U-Boot
 Waiting for scheme verification.  
