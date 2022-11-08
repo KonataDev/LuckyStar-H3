@@ -1,5 +1,5 @@
 ## Lucky Star H3
-[Allwiner H3](https://www.allwinnertech.com/index.php?c=product&a=index&id=47) board with 2GB RAM and 64GB eMMC, **Full OpenSource**.  
+[Allwinner H3](https://www.allwinnertech.com/index.php?c=product&a=index&id=47) board with 2GB RAM and 64GB eMMC, **Full OpenSource**.  
 We called it `LuckyStar-H3`, it able to run Konata.Core on it effortlessly.
 
 Compared with the Raspberry Pi, it has outstanding scalability and unparalleled computing power,  
