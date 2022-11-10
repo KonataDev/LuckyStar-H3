@@ -235,6 +235,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JORRMOXM
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Board\Design Rule Check - Board.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
