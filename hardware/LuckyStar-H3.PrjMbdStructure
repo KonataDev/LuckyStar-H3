@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=LuckyStar-H3.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=Boards\CoreBoard\CoreBoard.PrjPcb
+Record=SubProject|SourceDocument=LuckyStar-H3.MbsDoc|ProjectPath=Boards\CoreBoard\CoreBoard.PrjPcb
+Record=DiagramHierarchy|SourceDocument=LuckyStar-H3.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=Boards\MotherBoard\MotherBoard.PrjPcb
+Record=SubProject|SourceDocument=LuckyStar-H3.MbsDoc|ProjectPath=Boards\MotherBoard\MotherBoard.PrjPcb

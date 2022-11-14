@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=00_COREBOARD.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=00_COREBOARD.SchDoc|FileName=01_POWER.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=00_COREBOARD.SchDoc|FileName=02_DEBUG.SchDoc|SheetNumber=3

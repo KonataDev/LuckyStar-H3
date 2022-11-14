@@ -1,8 +1,30 @@
 hardware/History/
-hardware/Project Logs for Board/
-hardware/Project Outputs for Board/
-hardware/__Previews/
-hardware/Schematics/__Previews/
-hardware/Schematics/History/
+
+# CoreBoard
+hardware/Boards/CoreBoard/Boards/__Previews/
+hardware/Boards/CoreBoard/History/
+hardware/Boards/CoreBoard/Project Logs for Board/
+hardware/Boards/CoreBoard/Project Outputs for Board/
+hardware/Boards/CoreBoard/__Previews/
+hardware/Boards/CoreBoard/Schematics/__Previews/
+hardware/Boards/CoreBoard/Schematics/History/
+
+# DebugBoard
+hardware/Boards/DebugBoard/Boards/__Previews/
+hardware/Boards/DebugBoard/History/
+hardware/Boards/DebugBoard/Project Logs for DebugBoard/
+hardware/Boards/DebugBoard/Project Outputs for DebugBoard/
+hardware/Boards/DebugBoard/__Previews/
+hardware/Boards/DebugBoard/Schematics/__Previews/
+hardware/Boards/DebugBoard/Schematics/History/
+
+# MotherBoard
+hardware/Boards/MotherBoard/Boards/__Previews/
+hardware/Boards/MotherBoard/History/
+hardware/Boards/MotherBoard/Project Logs for MotherBoard/
+hardware/Boards/MotherBoard/Project Outputs for MotherBoard/
+hardware/Boards/MotherBoard/__Previews/
+hardware/Boards/MotherBoard/Schematics/__Previews/
+hardware/Boards/MotherBoard/Schematics/History/
 
 *.SLDPRT
