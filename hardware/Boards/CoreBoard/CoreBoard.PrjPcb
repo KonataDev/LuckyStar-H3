@@ -235,10 +235,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JORRMOXM
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Board\Pick Place for Board.csv
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
