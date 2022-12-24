@@ -134,7 +134,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DCSIUNPG
 
 [Document6]
-DocumentPath=Schematics\06_H3ETHERNET.SchDoc
+DocumentPath=Schematics\05_H3ETHERNET.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -151,7 +151,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CJMTGPKZ
 
 [Document7]
-DocumentPath=Schematics\07_H3HDMI.SchDoc
+DocumentPath=Schematics\06_H3HDMI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -234,6 +234,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JORRMOXM
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CoreBoard\Design Rule Check - Board.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources

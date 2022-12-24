@@ -3,5 +3,5 @@ Record=NoMainPathDocument|SourceDocument=00_PINOUT.SchDoc|FileName=01_POWER.SchD
 Record=NoMainPathDocument|SourceDocument=00_PINOUT.SchDoc|FileName=02_H3CORE.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=00_PINOUT.SchDoc|FileName=03_H3DRAM.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=00_PINOUT.SchDoc|FileName=04_H3STORAGE.SchDoc|SheetNumber= 
-Record=NoMainPathDocument|SourceDocument=00_PINOUT.SchDoc|FileName=06_H3ETHERNET.SchDoc|SheetNumber= 
-Record=NoMainPathDocument|SourceDocument=00_PINOUT.SchDoc|FileName=07_H3HDMI.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00_PINOUT.SchDoc|FileName=05_H3ETHERNET.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=00_PINOUT.SchDoc|FileName=06_H3HDMI.SchDoc|SheetNumber= 
