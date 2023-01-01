@@ -12,7 +12,7 @@ which is very suitable for Cloud and Edge Computing and Calculation-intensive sc
 [![moew](https://img.shields.io/badge/LuckyStar-H3-green)](#)
 [![license](https://img.shields.io/badge/LICENSE-MIT-blue)](./blob/main/LICENSE)
 
-## Supported distros
+## Supported distributions
 | Name         | Patch location   | Progress |
 | ------------ | ---------------- | -------- |
 | Armbian      | [patches/armbian](patches/armbian) | ✅      |
