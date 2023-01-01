@@ -12,9 +12,11 @@ which is very suitable for Cloud and Edge Computing and Calculation-intensive sc
 [![moew](https://img.shields.io/badge/LuckyStar-H3-green)](#)
 [![license](https://img.shields.io/badge/LICENSE-MIT-blue)](./blob/main/LICENSE)
 
-## U-Boot
-Waiting for scheme verification.  
-Stay tune :3
+## Supported distros
+| Name         | Patch location   | Progress |
+| ------------ | ---------------- | -------- |
+| Armbian      | [patches/armbian](patches/armbian) | ✅      |
+| AlpineLinux  | /                | WIP      |
 
 ## License
 Licensed under MIT with ❤.
