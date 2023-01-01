@@ -1,0 +1,13 @@
+diff --git a/drivers/power/Kconfig b/drivers/power/Kconfig
+index 2c20dc7c8..130b73ff9 100644
+--- a/drivers/power/Kconfig
++++ b/drivers/power/Kconfig
+@@ -84,7 +84,7 @@ config AXP209_POWER
+ 
+ config AXP221_POWER
+ 	bool "axp221 / axp223 pmic support"
+-	depends on MACH_SUN6I || MACH_SUN8I_A23 || MACH_SUN8I_A33 || MACH_SUN8I_R40
++	depends on MACH_SUN6I || MACH_SUN8I_A23 || MACH_SUN8I_A33 || MACH_SUN8I_R40 || MACH_SUNXI_H3_H5
+ 	select AXP_PMIC_BUS
+ 	select CMD_POWEROFF
+ 	---help---

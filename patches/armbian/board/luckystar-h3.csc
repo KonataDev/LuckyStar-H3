@@ -1,0 +1,11 @@
+# Allwinner H3 quad core 2GB RAM SoC
+BOARD_NAME="LuckyStar H3 Core Board"
+BOARDFAMILY="sun8i"
+BOOTCONFIG="luckystar_h3_defconfig"
+MODULES_CURRENT="g_serial"
+MODULES_BLACKLIST="lima sunxi_cedrus"
+DEFAULT_OVERLAYS="usbhost2 usbhost3 cpu-clock-1.3GHz-1.3v"
+DEFAULT_CONSOLE="serial"
+HAS_VIDEO_OUTPUT="no"
+SERIALCON="ttyS0,ttyGS0"
+KERNEL_TARGET="legacy,current,edge"

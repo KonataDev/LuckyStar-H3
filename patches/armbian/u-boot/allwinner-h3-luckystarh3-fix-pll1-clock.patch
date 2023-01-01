@@ -1,0 +1,32 @@
+diff --git a/arch/arm/mach-sunxi/clock_sun6i.c b/arch/arm/mach-sunxi/clock_sun6i.c
+index aec9e5620..e4df4f0ee 100644
+--- a/arch/arm/mach-sunxi/clock_sun6i.c
++++ b/arch/arm/mach-sunxi/clock_sun6i.c
+@@ -42,7 +42,9 @@ void clock_init_safe(void)
+ 	writel(GENMASK(12, 0), &ccm->pll_lock_ctrl);
+ #endif
+ 
+-	clock_set_pll1(408000000);
++	// we have to pullup the pll1 after configured the axp221,
++	// because now dcdc1 is 3.0v, it makes h3 run to fail.
++	// clock_set_pll1(408000000);
+ 
+ 	writel(PLL6_CFG_DEFAULT, &ccm->pll6_cfg);
+ 	while (!(readl(&ccm->pll6_cfg) & CCM_PLL6_CTRL_LOCK))
+diff --git a/board/sunxi/board.c b/board/sunxi/board.c
+index ed45ed04f..d4c4a2d20 100644
+--- a/board/sunxi/board.c
++++ b/board/sunxi/board.c
+@@ -666,6 +666,12 @@ void sunxi_board_init(void)
+ 	power_failed |= axp_set_sw(IS_ENABLED(CONFIG_AXP_SW_ON));
+ #endif
+ #endif
++
++	mdelay(500);
++	printf("pullup pll1 to 408000000");
++	clock_set_pll1(408000000);
++	mdelay(500);
++	
+ 	printf("DRAM:");
+ 	gd->ram_size = sunxi_dram_init();
+ 	printf(" %d MiB\n", (int)(gd->ram_size >> 20));
