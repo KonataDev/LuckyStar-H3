@@ -1,0 +1,16 @@
+diff --git a/arch/arm/boot/dts/sunxi-h3-h5.dtsi b/arch/arm/boot/dts/sunxi-h3-h5.dtsi
+index d0a3b573f..7f950c74c 100644
+--- a/arch/arm/boot/dts/sunxi-h3-h5.dtsi
++++ b/arch/arm/boot/dts/sunxi-h3-h5.dtsi
+@@ -514,6 +514,11 @@ uart0_pa_pins: uart0-pa-pins {
+ 				function = "uart0";
+ 			};
+ 
++			uart0_pf_pins: uart0-pf-pins {
++				pins = "PF2", "PF4";
++				function = "uart0";
++			};
++
+ 			uart1_pins: uart1-pins {
+ 				pins = "PG6", "PG7";
+ 				function = "uart1";

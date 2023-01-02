@@ -27,7 +27,6 @@ $ mkdir build/userpatches/u-boot/u-boot-sunxi/board_luckystarh3
 
 $ cp repo/patches/armbian/u-boot/* \
      build/userpatches/u-boot/u-boot-sunxi/board_luckystarh3/
-
 ```
 
 ### Copy the kernel patch
