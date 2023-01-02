@@ -99,6 +99,11 @@ index 000000000..c888c17cc
 +			label = "statled:ident";
 +			gpios = <&pio 11 11 GPIO_ACTIVE_LOW>;
 +		};
++
++	  uart0_pf_pins: uart0-pf-pins {
++	  	pins = "PF2", "PF4";
++		  function = "uart0";
++	  };
 +	};
 +
 +	reg_vdd_cpux: vdd-cpux-regulator {
