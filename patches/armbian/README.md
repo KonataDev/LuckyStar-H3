@@ -20,19 +20,28 @@ $ cp repo/patches/armbian/board/luckystar-h3.csc \
 ```
 # create the patch directory, all patches will be
 # applied automatically before build the u-boot
-$ mkdir build/patch/u-boot/u-boot-sunxi/board_luckystarh3
+
+$ mkdir build/userpatches/u-boot/u-boot-sunxi/board_luckystarh3
 
 # copy the patches
+
 $ cp repo/patches/armbian/u-boot/* \
-     build/patch/u-boot/u-boot-sunxi/board_luckystarh3/
+     build/userpatches/u-boot/u-boot-sunxi/board_luckystarh3/
 
 ```
 
 ### Copy the kernel patch
 > patch of kernel version is `5.15`
 ```
+# create the patch directory, all patches will be
+# applied automatically before build the kernel
+
+$ mkdir build/userpatches/kernel/archive/sunxi-5.15
+
+# copy the patches
+
 $ cp repo/patches/armbian/kernel/* \
-     build/patch/kernel/sunxi-current/patches.armbian/
+     build/userpatches/kernel/archive/sunxi-5.15/
 ```
 
 ### Build
@@ -40,7 +49,6 @@ $ cp repo/patches/armbian/kernel/* \
 $ ./compile.sh BRANCH=current                                       \
                PROGRESS_LOG_TO_FILE=yes                             \
                ARMBIAN_MIRROR="https://mirrors.ustc.edu.cn/armbian" \
-               CREATE_PATCHES=yes                                   \
                BOARD=luckystarh3                                    \
                KERNEL_ONLY=no
 ```
