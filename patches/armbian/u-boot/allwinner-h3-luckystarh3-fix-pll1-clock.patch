@@ -23,7 +23,6 @@ index ed45ed04f..d4c4a2d20 100644
  #endif
 +
 +	mdelay(500);
-+	printf("pullup pll1 to 408000000");
 +	clock_set_pll1(408000000);
 +	mdelay(500);
 +	
