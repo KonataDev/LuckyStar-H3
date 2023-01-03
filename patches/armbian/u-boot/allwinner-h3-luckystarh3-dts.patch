@@ -12,10 +12,10 @@ index a7e0d9f6c..370e90a0a 100644
  	sun8i-h3-nanopi-m1.dtb \
 diff --git a/arch/arm/dts/sun8i-h3-luckystar-h3.dts b/arch/arm/dts/sun8i-h3-luckystar-h3.dts
 new file mode 100644
-index 000000000..c888c17cc
+index 000000000..61be41a2c
 --- /dev/null
 +++ b/arch/arm/dts/sun8i-h3-luckystar-h3.dts
-@@ -0,0 +1,182 @@
+@@ -0,0 +1,187 @@
 +/*
 + * Copyright (C) 2023 Konata Dev <org@konata.dev>
 + * 
@@ -84,26 +84,21 @@ index 000000000..c888c17cc
 +	leds {
 +		compatible = "gpio-leds";
 +
-+		stat_led_disk {
-+			label = "statled:disk";
-+			gpios = <&pio 11 9 GPIO_ACTIVE_LOW>;
++		statled_error {
++			label = "statled:red:error";
++			gpios = <&r_pio 0 10 GPIO_ACTIVE_LOW>;
 +			default-state = "on";
 +		};
 +
-+		stat_led_error {
-+			label = "statled:error";
-+			gpios = <&pio 11 10 GPIO_ACTIVE_LOW>;
++		statled_ident {
++			label = "statled:yellow:ident";
++			gpios = <&r_pio 0 11 GPIO_ACTIVE_LOW>;
 +		};
 +
-+		stat_led_ident {
-+			label = "statled:ident";
-+			gpios = <&pio 11 11 GPIO_ACTIVE_LOW>;
++		statled_disk {
++			label = "statled:orange:disk";
++			gpios = <&r_pio 0 9 GPIO_ACTIVE_LOW>;
 +		};
-+
-+	  uart0_pf_pins: uart0-pf-pins {
-+	  	pins = "PF2", "PF4";
-+		  function = "uart0";
-+	  };
 +	};
 +
 +	reg_vdd_cpux: vdd-cpux-regulator {
@@ -121,6 +116,11 @@ index 000000000..c888c17cc
 +		gpios-states = <1>;
 +		states = <1100000 0>, <1300000 1>;
 +	};
++
++	  uart0_pf_pins: uart0-pf-pins {
++	  	pins = "PF2", "PF4";
++		  function = "uart0";
++	  };
 +};
 +
 +&cpu0 {

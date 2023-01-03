@@ -15,7 +15,7 @@ new file mode 100644
 index 000000000..92df7a214
 --- /dev/null
 +++ b/arch/arm/boot/dts/sun8i-h3-luckystar-h3.dts
-@@ -0,0 +1,182 @@
+@@ -0,0 +1,183 @@
 +/*
 + * Copyright (C) 2023 Konata Dev <org@konata.dev>
 + * 
@@ -66,6 +66,7 @@ index 000000000..92df7a214
 +#include "sunxi-common-regulators.dtsi"
 +
 +#include <dt-bindings/gpio/gpio.h>
++#include <dt-bindings/leds/common.h>
 +#include <dt-bindings/input/input.h>
 +
 +/ {
@@ -84,20 +85,20 @@ index 000000000..92df7a214
 +	leds {
 +		compatible = "gpio-leds";
 +
-+		stat_led_disk {
-+			label = "statled:disk";
-+			gpios = <&pio 11 9 GPIO_ACTIVE_LOW>;
-+			default-state = "on";
++		statled_error {
++			label = "statled:red:error";
++			gpios = <&r_pio 0 10 GPIO_ACTIVE_LOW>;
 +		};
 +
-+		stat_led_error {
-+			label = "statled:error";
-+			gpios = <&pio 11 10 GPIO_ACTIVE_LOW>;
++		statled_ident {
++			label = "statled:yellow:ident";
++			gpios = <&r_pio 0 11 GPIO_ACTIVE_LOW>;
 +		};
 +
-+		stat_led_ident {
-+			label = "statled:ident";
-+			gpios = <&pio 11 11 GPIO_ACTIVE_LOW>;
++		statled_disk {
++			label = "statled:orange:disk";
++			gpios = <&r_pio 0 9 GPIO_ACTIVE_LOW>;
++     linux,default-trigger = "mmc2";
 +		};
 +	};
 +
