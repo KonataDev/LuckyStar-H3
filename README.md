@@ -5,8 +5,9 @@ We called it `LuckyStar-H3`, it able to run Konata.Core on it effortlessly.
 Compared with other SBCs, it has outstanding scalability and nice computing power,  
 which is very suitable for Cloud and Edge Computing and Calculation-intensive scenes.
 
-<image src="./image/overview-front.png" width="400px">
-<image src="./image/overview-back.png" width="400px">
+This picture shows a core board and a debug board.  
+The motherboard is coming soon. d(≧▽≦d)
+<image src="./image/board.jpg">
 
 [![cpu](https://img.shields.io/badge/CPU-QUAD%20ARM%20Cortex%20A7-orange)](#)
 [![moew](https://img.shields.io/badge/LuckyStar-H3-green)](#)
