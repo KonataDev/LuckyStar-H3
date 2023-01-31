@@ -15,7 +15,7 @@ new file mode 100644
 index 000000000..92df7a214
 --- /dev/null
 +++ b/arch/arm/boot/dts/sun8i-h3-luckystar-h3.dts
-@@ -0,0 +1,183 @@
+@@ -0,0 +1,199 @@
 +/*
 + * Copyright (C) 2023 Konata Dev <org@konata.dev>
 + * 
@@ -98,7 +98,7 @@ index 000000000..92df7a214
 +		statled_disk {
 +			label = "statled:orange:disk";
 +			gpios = <&r_pio 0 9 GPIO_ACTIVE_LOW>;
-+     linux,default-trigger = "mmc2";
++ 		linux,default-trigger = "mmc2";
 +		};
 +	};
 +
@@ -144,7 +144,15 @@ index 000000000..92df7a214
 +	status = "okay";
 +};
 +
++&ohci0 {
++	status = "okay";
++};
++
 +&ehci0 {
++	status = "okay";
++};
++
++&ohci1 {
 +	status = "okay";
 +};
 +
@@ -152,11 +160,19 @@ index 000000000..92df7a214
 +	status = "okay";
 +};
 +
-+&ohci0 {
++&ohci2 {
 +	status = "okay";
 +};
 +
-+&ohci1 {
++&ehci2 {
++	status = "okay";
++};
++
++&ohci3 {
++	status = "okay";
++};
++
++&ehci3 {
 +	status = "okay";
 +};
 +
