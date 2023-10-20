@@ -1,6 +1,6 @@
 ## Lucky Star H3
 [Allwinner H3](https://www.allwinnertech.com/index.php?c=product&a=index&id=47) board with 2GB RAM and 64GB eMMC, **Full OpenSource**.  
-We called it `LuckyStar-H3`, it runs Konata.Core effortlessly.
+We called it `LuckyStar-H3`, it runs Armbian effortlessly.
 
 Compared with other SBCs, it has outstanding scalability and nice computing power,  
 which is very suitable for Cloud and Edge Computing and Calculation-intensive scenes.
