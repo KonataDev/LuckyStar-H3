@@ -1,3 +1,5 @@
 Record=TopLevelDocument|FileName=00_POWER.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=00_POWER.SchDoc|FileName=01_COREBOARD.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=00_POWER.SchDoc|FileName=02_HDMI.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=00_POWER.SchDoc|FileName=03_USB.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=00_POWER.SchDoc|FileName=04_GBEPHY.SchDoc|SheetNumber=5
