@@ -21,12 +21,12 @@ $ cp repo/patches/armbian/board/luckystar-h3.csc \
 # create the patch directory, all patches will be
 # applied automatically before build the u-boot
 
-$ mkdir -p build/userpatches/u-boot/u-boot-sunxi/board_luckystarh3
+$ mkdir -p build/userpatches/u-boot/u-boot-sunxi/board_luckystar-h3
 
 # copy the patches
 
 $ cp repo/patches/armbian/u-boot/* \
-     build/userpatches/u-boot/u-boot-sunxi/board_luckystarh3/
+     build/userpatches/u-boot/u-boot-sunxi/board_luckystar-h3/
 ```
 
 ### Copy the kernel patch
