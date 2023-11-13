@@ -17,7 +17,7 @@ diff --git a/board/sunxi/board.c b/board/sunxi/board.c
 index ed45ed04f..d4c4a2d20 100644
 --- a/board/sunxi/board.c
 +++ b/board/sunxi/board.c
-@@ -666,6 +666,12 @@ void sunxi_board_init(void)
+@@ -666,6 +666,11 @@ void sunxi_board_init(void)
  	power_failed |= axp_set_sw(IS_ENABLED(CONFIG_AXP_SW_ON));
  #endif
  #endif
